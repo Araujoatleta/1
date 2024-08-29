@@ -1,5 +1,5 @@
 /**
- * Swiper 11.1.10
+ * Swiper 11.1.11
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
  *
@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: August 21, 2024
+ * Released on: August 28, 2024
  */
  @font-face {
     font-family: swiper-icons;
@@ -17,7 +17,7 @@
 }
 
 :root {
-    --swiper-theme-color: #007aff
+    /* --swiper-theme-color:#007aff; */
 }
 
 :host {
@@ -72,7 +72,7 @@
     height: 100%;
     position: relative;
     transition-property: transform;
-    display: block
+    display: block;
 }
 
 .swiper-slide-invisible-blank {
@@ -91,7 +91,7 @@
 .swiper-backface-hidden .swiper-slide {
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden
+    backface-visibility: hidden;
 }
 
 .swiper-3d.swiper-css-mode .swiper-wrapper {
@@ -260,7 +260,7 @@
 }
 
 :root {
-    /* --swiper-navigation-size:44px; */
+    --swiper-navigation-size: 44px
 }
 
 .swiper-button-next,.swiper-button-prev {
@@ -624,7 +624,7 @@ button.swiper-pagination-bullet {
     pointer-events: auto
 }
 
-.swiper-cube {
+.swiper.swiper-cube {
     overflow: visible
 }
 
@@ -688,7 +688,7 @@ button.swiper-pagination-bullet {
     backface-visibility: hidden
 }
 
-.swiper-flip {
+.swiper.swiper-flip {
     overflow: visible
 }
 
@@ -720,11 +720,11 @@ button.swiper-pagination-bullet {
     transition-property: transform,opacity,height
 }
 
-.swiper-cards {
+.swiper.swiper-cards {
     overflow: visible
 }
 
-.swiper-cards .swiper-slide {
+.swiper .swiper-slide {
     transform-origin: center bottom;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
