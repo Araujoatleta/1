@@ -86,6 +86,7 @@ header nav a:hover {
 }
 
 header .btn {
+    margin: 0px -300px;
     padding: .95rem 2.4rem;
     border-radius: 3.2rem;
     border: 2px solid var(--gray-dark-05);
@@ -570,47 +571,6 @@ footer .right-area span {
     }
 }
 
-@keyframes animateBg {
-    0% {
-        background-image: url("../img/bg-venon.png")
-    }
-
-    20% {
-        background-image: url("../img/bg/01.png")
-    }
-
-    35% {
-        background-image: url("../img/bg/02.png")
-    }
-
-    45% {
-        background-image: url("../img/bg/03.png")
-    }
-
-    55% {
-        background-image: url("../img/bg/04.png")
-    }
-
-    65% {
-        background-image: url("../img/bg/05.png")
-    }
-
-    75% {
-        background-image: url("../img/bg/06.png")
-    }
-
-    85% {
-        background-image: url("../img/bg/07.png")
-    }
-
-    95% {
-        background-image: url("../img/bg/08.png")
-    }
-
-    100% {
-        background-image: url("../img/bg-venon.png")
-    }
-}
 
 .s-villain {
     position: relative;
@@ -622,8 +582,7 @@ footer .right-area span {
     align-items: center;
     justify-content: center;
     background-size: cover;
-    transition: background-image .3s ease;
-    animation: animateBg 8s infinite linear
+    background-image:url('/img/imagem_background.svg') ;
 }
 
 .s-villain:before {
@@ -730,6 +689,7 @@ footer .right-area span {
     display: flex;
     align-items: center;
     justify-content: center
+
 }
 
 .card-video .image .icon {
