@@ -22,7 +22,7 @@ https://codepen.io/codingstella/pen/eYQXpoY */
   .form-box {
     position: relative;
     width: 400px;
-    height: 450px;
+    height: 525px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
@@ -140,4 +140,7 @@ https://codepen.io/codingstella/pen/eYQXpoY */
   .register p a:hover {
     text-decoration: underline;
   }
-  
+
+  .a1{
+    text-decoration: none;
+  }
