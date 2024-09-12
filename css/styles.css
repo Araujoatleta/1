@@ -63,19 +63,14 @@
 }
 
 button {
-    background-color: #ff6f00;
-    color: white;
+    border-radius: 3.2rem;
+    background: #E1E1E1;
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
 }
-
-button:hover {
-    background-color: #e65b00;
-}
-
 .plan-bronze {
     border-top: 20px solid #5f3b17;
     width: 385px;
@@ -93,4 +88,15 @@ button:hover {
     border-top: 20px solid gold;
     width: 385px;
     height: 564.25px;
+}
+.h1-last{
+    color: #FFF;
+    font-family: Mohave;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 390px;
+    margin-top:-650px;
 }
