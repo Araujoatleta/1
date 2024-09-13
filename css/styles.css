@@ -63,29 +63,33 @@
 }
 
 button {
-    border-radius: 3.2rem;
     background: #E1E1E1;
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 .plan-bronze {
-    border-top: 20px solid #5f3b17;
+    border-top: 20px solid;
     width: 385px;
     height: 297px;
+    border-image-slice: 1;
+    border-image-source:linear-gradient(90deg, #DB6C2B 0%, #673208 100%)
 
 }
 
+
 .plan-silver {
-    border-top: 20px solid #8f8f8f;
+    border-top: 20px solid;
     width: 385px;
     height: 438px;
+    border-image-slice: 1;
+    border-image-source:linear-gradient(90deg, #C0C0C0 0%, #4F4F4F 100%);
 }
 
 .plan-deluxe {
-    border-top: 20px solid gold;
+    border-top: 20px solid  #F8B631 ;
     width: 385px;
     height: 564.25px;
 }
@@ -99,4 +103,19 @@ button {
     text-transform: uppercase;
     width: 390px;
     margin-top:-650px;
+}
+.slogan-principal{
+    margin-top: -35px;
+    margin-left: 130px;
+    position: absolute;
+}
+.slogan-secundario{
+    margin-top: -35px;
+    margin-left: 135px;
+    position: absolute;
+}
+.slogan-terciario{
+    margin-top: -35px;
+    margin-left: 135px;
+    position: absolute;
 }
