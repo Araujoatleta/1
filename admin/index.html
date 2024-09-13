@@ -10,80 +10,89 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="main.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./Carrosel/style.css">
+    <link rel="stylesheet" href="../Carrosel/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
   </head>
   
   <body>
     <header>
       <div class="container">
-        <a href="./img/1.svg">
-          <img src="img/1.svg" alt="Logo barbearia">
+        <a href="../img/logo-barbers-club.svg">
+          <img src="../img/logo-barbers-club.svg" alt="Logo barbearia">
         </a>
-            <a href="./Login/index.html" class="btn desktop">Admin</a>
+        
       </div>
     </header>
     <section class="s-hero">
       <div class="container">
         <div class="left-area">
-          <h1>BARBA DO MÊS</h1>
-          <p>A barba do mês seria uma votação dos melhores serviços de cada barbearia avaliada, 
-            sendo uma forma de mostrar os cortes em destaque de barbearias em geral.</p>
-          <div class="value">
-            <h3>Clique Abaixo</h3>
-            <div class="btns">
-              <a href="#" class="btn">Abaixa o nosso APP</a>
-            </div>
-          </div>
+          <h1>Admin Area</h1>
+          
+          <p> 
+            Olá! Esta é a área administrativa do nosso site, aqui você pode gerir sua(s) barbearia(s),
+            membros da sua equipe, ver avaliações e etc. 
+            Clique em nossa logo presente no canto superior esquerdo para abrir o menu de opções. 
+          </p>
+        
             </ul>
           </div>
         </div>
     </section>
+    <h3 class="h3-terciario">últimas postagens:</h3>
     <section>
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide--one">
             <div>
-              <h2>Enjoy the exotic of sunny Hawaii</h2>
+              <h2>Barbearia do Otavio</h2>
               <p>
                
+                Rua Pedra Benvinda Jerônimo, 17
+                
               </p>
             </div>
           </div>
           <div class="swiper-slide swiper-slide--two">
             <div>
-              <h2>The Island of Eternal Spring</h2>
+              <h2>Barbearia do Pedro</h2>
               <p>
                
+                Estrada do Socó, 9
+
               </p>
             </div>
           </div>
     
           <div class="swiper-slide swiper-slide--three">
             <div>
-              <h2>Awesome Eiffel Tower</h2>
+              <h2>Barbearia do Eduardo</h2>
               <p>
                
+                Rua Periguejabulani, 532
+
               </p>
             </div>
           </div>
     
           <div class="swiper-slide swiper-slide--four">
             <div>
-              <h2>One of the safest states in Mexico</h2>
+              <h2>Barbearia do Ferdinan</h2>
               <p>
                 
+                Av. Joâo Rebouças, 78
+
               </p>
             </div>
           </div>
     
           <div class="swiper-slide swiper-slide--five">
             <div>
-              <h2>The most popular yachting destination</h2>
+              <h2>Barbearia do Rodrigo</h2>
               <p>
     
+                Rua Tadalafila, 150
 
               </p>
             </div>
@@ -94,23 +103,29 @@
       </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
-    <script src="./Carrosel/main.js"></script>
+    <script src="../Carrosel/main.js"></script>
     <section class="s-villain">
       <div class="container">
-        <img src="img/imagem_background.svg" alt="">
+        <img src="../img/imagem.svg" alt="">
       </div>
     </section>
+    
+
     <footer>
-      <div class="container">
-        <div class="left-area">
-          <h3>©Barbearia</h3>
-          <p>Com a nossa Empresa de Intermediação de Serviços de Barbearia, tanto as barbearias quanto os
-             clientes podem desfrutar de uma experiência mais eficiente 
-             e satisfatória no mundo dos serviços de corte de cabelo e barbearia.</p>
+      <div class="testimonial-container">
+        <div class="image-section">
+            <img src="../img/footer.png" alt="Depoimento de R10" class="testimonial-image">
         </div>
+
+        <h2>DEPOIMENTOS</h2>
+        <div class="text-section">
+            <blockquote class="testimonial-text">"Desde que comecei a parceria com a BC(Barber's Club) nunca mais tive problemas com horários e agendamentos"</blockquote>
+            <p class="author">"R10"</p>
+        </div>
+    </div>
         <div class="right-area">
           <a href="https://designboost.com.br/" target="_blank">
-            <img src="img/1.svg" alt="">
+            <img src="../img/logo-barbers-club.svg" alt="">
           </a>
         </div>
       </div>
